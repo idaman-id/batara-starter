@@ -1,0 +1,15 @@
+{
+  "watch": [
+    "app",
+    "bootstrap",
+    "config",
+    "route",
+    "test"
+  ],
+  "ext": "ts,json",
+  "ignore": [
+    "**/*.spec.ts",
+    "storage/*"
+  ],
+  "exec": "npx ts-node ./bootstrap/application.ts"
+}

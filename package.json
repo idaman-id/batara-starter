@@ -1,0 +1,27 @@
+{
+  "name": "batara-test",
+  "version": "1.0.0",
+  "description": "starter application of batara",
+  "main": "build/bootstrap/application.js",
+  "dependencies": {
+    "batara": "^0.0.19"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-locale": "^2.0.1",
+    "@types/lodash": "^4.14.171",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^15.14.2",
+    "@types/node-polyglot": "^2.4.2",
+    "nodemon": "2.0.7",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "dev": "node node_modules/nodemon/bin/nodemon.js",
+    "build": "tsc --project ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raka Suryaardi Widjaja <raka.suryadi@gmail.com>",
+  "license": "ISC"
+}
